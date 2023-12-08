@@ -8,6 +8,7 @@ import (
 func main() {
 	race_list := GetRaceListFromFile("inputs/part1.txt")
 	
+	// Part 1
 	counter_mul := 1
 	for _, race := range race_list {
 		win_opts := countWinOptions(race) 
